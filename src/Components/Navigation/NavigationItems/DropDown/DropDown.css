@@ -1,0 +1,17 @@
+.dropdown {
+  position: absolute;
+  top: 30px;
+  width: 300px;
+  transform: translateX(-45%);
+  background-color: #000;
+  border: gray;
+  border-radius: 5px;
+  padding: 1rem;
+  overflow: hidden;
+  transition: height var(--speed) ease;
+}
+
+a {
+  color: rgb(15, 10, 10);
+  text-decoration: none;
+}

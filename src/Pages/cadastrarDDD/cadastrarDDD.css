@@ -1,0 +1,92 @@
+/* .Body2 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 105px;
+  height: 90%;
+   width: 100%; 
+
+  background-color: rgb(255, 255, 255);
+} */
+
+.SideBarOpen {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 105px;
+  height: 90%;
+  width: 85%;
+  flex: 1;
+  margin-left: 14.5vw;
+
+  /* width: 100%;
+  width: 0.5vw;
+  transition: 0.5s ease-in-out;
+  margin-left: 14.5vw; 
+  flex: 1; 
+  */
+  transition: 0.5s ease-in-out;
+  background-color: rgb(255, 255, 255);
+}
+
+.SideBarClosed {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 105px;
+  height: 90vh;
+  width: 100%;
+
+  /* width: 100%;
+  width: 1vw;
+ 
+  
+   */
+  flex: 1;
+  transition: 0.5s ease-in-out;
+  background-color: rgb(255, 255, 255);
+}
+
+.items {
+  /* flex */
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+  align-items: center;
+  /* margin: 10px; */
+  /* max-height: 100%;
+  min-height: 95%; */
+  width: 90%;
+}
+
+.screenItems {
+  height: 69%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+  background: radial-gradient(circle, #dedde2 14%, #dedde2 64%);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, hsl(240, 0%, 59%) 14%, #939396 64%);
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 11px;
+}
+
+.breadCrumb {
+  display: flex;
+  align-items: center;
+  font-size: large;
+}

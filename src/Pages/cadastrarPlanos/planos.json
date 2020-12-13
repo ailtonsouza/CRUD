@@ -1,0 +1,27 @@
+[
+  {
+    "id":1,
+    "Nome": "Fala mais 30",
+    "Franquia": "30",
+    "Percentual_Minuto_Extra": "5%"
+  },
+  {
+    "id":2,
+    "Nome": "Fala mais 60",
+    "Franquia": "60",
+    "Percentual_Minuto_Extra": "2%"
+  },
+  {
+    "id":3,
+    "Nome": "Fala mais 90",
+    "Franquia": "90",
+    "Percentual_Minuto_Extra": "1%"
+  },
+  {
+    "id":4,
+    "Nome": "Fala mais 120",
+    "Franquia": "120",
+    "Percentual_Minuto_Extra": "0%"
+  }
+
+]

@@ -1,0 +1,63 @@
+.InputBody {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.Input {
+  height: 35px;
+  width: 90%;
+  font-size: 120%;
+  border-radius: 10px 0px 0px 10px;
+  box-sizing: border-box;
+  background-color: rgb(243, 248, 248);
+  outline: none;
+}
+
+.InputBody span {
+  position: absolute;
+  left: 2%;
+  font-size: 120%;
+  pointer-events: none;
+  color: black;
+  font-weight: 450;
+}
+
+.Input:focus + span {
+  position: absolute;
+  transition: 0.3s;
+  top: 0%;
+  left: 2%;
+  font-size: 100%;
+  color: blue;
+  font-weight: bold;
+}
+
+#Filled {
+  transition: 0.3s;
+  position: absolute;
+  top: 0%;
+  left: 2%;
+  font-size: 100%;
+  color: blue;
+  font-weight: bold;
+}
+
+.InputBody button {
+  height: 35px;
+  width: 15%;
+  cursor: pointer;
+  border-radius: 0px 10px 10px 0px;
+  outline: none;
+  border-left: none;
+  background-color: rgb(204, 236, 238);
+  font-size: x-large;
+}
+
+h1 {
+  font-size: larger;
+  color: black;
+}

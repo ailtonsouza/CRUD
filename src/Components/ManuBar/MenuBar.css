@@ -1,0 +1,165 @@
+.Add {
+  background-color: rgb(17, 50, 241);
+  color: black;
+  position: relative;
+  margin-top: 5px;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 11px;
+  border: 1px solid rgb(14, 4, 41);
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+
+.Add svg {
+  height: 30px;
+  width: 30px;
+  fill: #ffffff;
+}
+
+.form-control {
+  background-color: white;
+  margin: 20px;
+  margin-top: 10px;
+  display: flex;
+  padding: 1px;
+  flex-direction: column;
+  background-color: rgb(234, 233, 238);
+  border: 5px solid rgb(234, 233, 238);
+  border-radius: 15px;
+  overflow: hidden;
+  /* align-items: flex-end; */
+  justify-content: center;
+}
+
+.form-search {
+  display: flex;
+  align-items: center;
+  height: 4vh;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+.form-search1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 1px;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #090246;
+}
+
+.find {
+  width: 8%;
+  height: 100%;
+  border: none;
+  font-size: 1vw;
+  outline: none;
+  height: 90%;
+  margin-left: 5px;
+}
+
+.form-control span {
+  position: relative;
+  margin-left: 0.5vw;
+  font-size: larger;
+  font-weight: 600;
+}
+
+.form-search button {
+  margin-left: 10px;
+  cursor: pointer;
+  width: 35px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  outline: none;
+}
+
+.form-search svg {
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+
+.form-control span {
+  color: #0f0808;
+  /* position: fixed;
+  right: 95%;
+  margin-right: -0.5%; */
+  /* top: 10vw;
+   */
+  /* margin-right: 92vw;
+  align-items: center; */
+}
+
+.form-selected {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vh;
+  background-color: white;
+}
+
+.selectors {
+  display: flex;
+  height: 100%;
+
+  width: 20%;
+  align-items: center;
+}
+
+.selectionBox {
+  width: 20px;
+  height: 20px;
+}
+
+#counter {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  height: inherit;
+  color: blue;
+}
+
+.buttons {
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.close {
+  /* 
+  width: 30px;
+  height: 30px;
+   */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-right: 10px;
+  padding: 0px;
+  height: 100%;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  color: blue;
+}
+
+.buttons svg {
+  margin-right: 10px;
+  background-image: blue;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  height: 100%;
+}

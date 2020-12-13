@@ -1,0 +1,83 @@
+.RightNav {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  right: 100%;
+  flex-flow: column nowrap;
+  background-color: #f0ffff;
+  position: absolute;
+  border-radius: 5px;
+  top: 105px;
+  left: 0;
+  width: 14.5%;
+  /* z-index: 300; */
+}
+
+.open {
+  left: 0;
+  /* right: 0; */
+  bottom: 0;
+  /* right: 85.5%; */
+  /* transform: translateX(0%); */
+  transition: 0.2s ease-in-out;
+}
+
+.closed {
+  left: 0;
+  bottom: 0;
+  /* left: 100; */
+  /* left: 0; */
+  /* right: 100; */
+  /* transform: translateX(0%); */
+  transition: 1.5s ease-in-out;
+}
+
+.rightNavHeader {
+  background-color: rgb(204, 236, 238);
+  height: 7%;
+  width: 100%;
+  /* margin-bottom: 10%; */
+  vertical-align: middle;
+}
+
+.buttonSearch {
+  display: flex;
+  height: 3px;
+  width: 85%;
+  margin-bottom: 10%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttonSearch button {
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+}
+
+.buttonSearch svg {
+  height: 35px;
+  width: 35px;
+  fill: #ffffff;
+}
+
+.rightNavBody {
+  width: 90%;
+}
+
+/* .rightNavBody span {
+  display: block;
+  margin-top: 10%;
+} */
+
+.rightNavHeader p {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.findMenu {
+  height: 55px;
+  width: 55px;
+  background-color: rgb(17, 50, 241);
+}

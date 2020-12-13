@@ -1,0 +1,402 @@
+[
+  {
+    "id":1,
+    "Prefixo": "11",
+    "Estado": "São Paulo",
+    "Cidade_Região": "São Paulo/Jundiaí/Itu/Bragança Paulista"
+   
+  },
+  {
+    "id":2,
+    "Prefixo": "12",
+    "Estado": "São Paulo",
+    "Cidade_Região": "São José dos Campos/Taubaté/Vale do Paraíba"
+  },
+  {
+    "id":3,
+
+    "Prefixo": "13",
+    "Estado": "São Paulo",
+    "Cidade_Região": "Santos/São Vicente/Baixada Santista/Vale do Ribeira"
+   
+
+  },
+  {
+    "id":4,
+
+    "Prefixo": "14",
+    "Estado": "São Paulo",
+    "Cidade_Região": "Bauru/Marília/Jaú/Botucatu"
+  
+
+  },
+  {
+    "id":5,
+
+    "Prefixo": "15",
+    "Estado": "São Paulo",
+    "Cidade_Região": "Sorocaba/Itapetininga/Itapeva"
+ 
+  },
+  {
+    "id":6,
+
+    "Prefixo": "16",
+    "Estado": "São Paulo",
+    "Cidade_Região": "Ribeirão Preto/Franca/São Carlos/Araraquara"
+    
+
+  },
+  {
+    "id":7,
+
+    "Prefixo": "17",
+    "Estado": "São Paulo",
+    "Cidade_Região": "São José do Rio Preto/Catanduva/Barretos/Votuporanga"
+    
+
+  },
+  {
+    "id":8,
+
+    "Prefixo": "18",
+    "Estado": "São Paulo",
+    "Cidade_Região": "Presidente Prudente/Araçatuba/Birigui/Assis"
+   
+  },
+  {
+    "id":9,
+
+    "Prefixo": "19",
+    "Estado": "São Paulo",
+    "Cidade_Região": "Campinas/Piracicaba/Limeira/Americana"
+   
+  },
+  {
+    "id":10,
+
+    "Prefixo": "21",
+    "Estado": "Rio de Janeiro",
+    "Cidade_Região": "Rio de Janeiro, Região Metropolitana e Teresópolis"
+  
+  },
+  {
+    "id":12,
+    "Prefixo": "22",
+    "Estado": "Rio de Janeiro",
+    "Cidade_Região": "Campos dos Goytacazes/Nova Friburgo/Macaé/Cabo Frio"
+  
+  },
+  {"id":13,
+    "Prefixo": "24",
+    "Estado": "Rio de Janeiro",
+    "Cidade_Região": "Petrópolis/Volta Redonda/Angra dos Reis"
+  
+  },
+  {"id":14,
+    "Prefixo": "27",
+    "Estado": "Espírito Santo",
+    "Cidade_Região":
+      "Vitória, Região Metropolitana, Norte e Noroeste do Estado do Espírito Santo."
+   
+  },
+  {"id":15,
+    "Prefixo": "28",
+    "Estado": "Espírito Santo",
+    "Cidade_Região": "Mesorregião Sul do Espírito Santo"
+   
+  },
+  {"id":16,
+    "Prefixo": "31",
+    "Estado": "Minas Gerais",
+    "Cidade_Região": "Belo Horizonte, Região Metropolitana e Vale do Aço"
+
+  },
+  {"id":17,
+    "Prefixo": "32",
+    "Estado": "Minas Gerais",
+    "Cidade_Região": "Juiz de Fora/São João del-Rei/Barbacena"
+
+  },
+  {"id":18,
+    "Prefixo": "33",
+    "Estado": "Minas Gerais",
+    "Cidade_Região": "Governador Valadares/Teófilo Otoni/Caratinga/Manhuaçu"
+   
+  },
+  {"id":19,
+    "Prefixo": "34",
+    "Estado": "Minas Gerais",
+    "Cidade_Região": "Uberlândia e Triângulo Mineiro"
+   
+  },
+  {"id":20,
+    "Prefixo": "35",
+    "Estado": "Minas Gerais",
+    "Cidade_Região": "Poços de Caldas/Pouso Alegre/Varginha"
+ 
+  },
+  {"id":21,
+    "Prefixo": "37",
+    "Estado": "Minas Gerais",
+    "Cidade_Região": "Divinópolis/Itaúna"
+ 
+  },
+  {"id":22,
+    "Prefixo": "38",
+    "Estado": "Minas Gerais",
+    "Cidade_Região": "Montes Claros/Diamantina/Noroeste de Minas"
+
+  },
+  {"id":23,
+    "Prefixo": "41",
+    "Estado": "Paraná",
+    "Cidade_Região": "Curitiba e Região Metropolitana"
+
+  },
+  {"id":24,
+    "Prefixo": "42",
+    "Estado": "Paraná",
+    "Cidade_Região": "Ponta Grossa/Guarapuava"
+    
+  },
+  {"id":25, "Prefixo": "43", "Estado": "Paraná", "Cidade_Região": "Londrina/Apucarana" },
+  {"id":26,
+    "Prefixo": "44",
+    "Estado": "Paraná",
+    "Cidade_Região": "Maringá/Campo Mourão/Umuarama"
+  
+  },
+  {"id":27,
+    "Prefixo": "45",
+    "Estado": "Paraná",
+    "Cidade_Região": "Cascavel/Foz do Iguaçu"
+ 
+  },
+  {"id":28,
+    "Prefixo": "46",
+    "Estado": "Paraná",
+    "Cidade_Região": "Francisco Beltrão/Pato Branco"
+  
+
+  },
+  {"id":29,
+    "Prefixo": "47",
+    "Estado": "Santa Catarina",
+    "Cidade_Região": "Joinville/Blumenau/Itajaí/Balneário Camboriú"
+   
+  },
+  {"id":30,
+    "Prefixo": "48",
+    "Estado": "Santa Catarina",
+    "Cidade_Região": "Florianópolis/Criciúma/Tubarão/Santo Amaro da Imperatriz"
+
+  },
+  {"id":31,
+    "Prefixo": "49",
+    "Estado": "Santa Catarina",
+    "Cidade_Região": "Chapecó/Lages/Caçador"
+  
+  },
+  {"id":32,
+    "Prefixo": "51",
+    "Estado": "Rio Grande do Sul",
+    "Cidade_Região":
+      "Porto Alegre e Região Metropolitana/Santa Cruz do Sul/Litoral Norte"
+   
+  },
+  {"id":33,
+    "Prefixo": "53",
+    "Estado": "Rio Grande do Sul",
+    "Cidade_Região": "Pelotas/Rio Grande"
+  
+  },
+  {"id":34,
+    "Prefixo": "54",
+    "Estado": "Rio Grande do Sul",
+    "Cidade_Região": "Caxias do Sul/Passo Fundo"
+   
+  },
+  {"id":35,
+    "Prefixo": "55",
+    "Estado": "Rio Grande do Sul",
+    "Cidade_Região":
+      "Santa Maria/Uruguaiana/Santana do Livramento/Santo Ângelo"
+     
+  },
+  {"id":36,
+    "Prefixo": "61",
+    "Estado": "Distrito Federal/Goiás",
+    "Cidade_Região":
+      "Abrangência em todo o Distrito Federal e municípios goianos da Região Integrada de Desenvolvimento do Distrito Federal e Entorno         Abrangência em todo o Distrito Federal e municípios goianos da Região Integrada de Desenvolvimento do Distrito Federal e Entorno Abrangência em todo o Distrito Federal e municípios goianos da Região Integrada de Desenvolvimento do Distrito Federal e Entorno         Abrangência em todo o Distrito Federal e municípios goianos da Região Integrada de Desenvolvimento do Distrito Federal e Entorno"
+  
+    },
+  {"id":37,
+    "Prefixo": "62",
+    "Estado": "Goiás",
+    "Cidade_Região":
+      "Goiânia e Região Metropolitana/Anápolis/Niquelândia/Porangatu"
+    
+  },
+  {"id":38,
+    "Prefixo": "63",
+    "Estado": "Tocantins",
+    "Cidade_Região": "Abrangência em todo o Estado"
+ 
+  },
+  {"id":39,
+    "Prefixo": "64",
+    "Estado": "Goiás",
+    "Cidade_Região": "Rio Verde/Itumbiara/Caldas Novas/Catalão"
+    
+  },
+  {"id":40,
+    "Prefixo": "65",
+    "Estado": "Mato Grosso",
+    "Cidade_Região": "Cuiabá e Região Metropolitana"
+  
+  },
+  {"id":41,
+    "Prefixo": "66",
+    "Estado": "Mato Grosso",
+    "Cidade_Região": "Rondonópolis/Sinop"
+   
+  },
+  {"id":42,
+    "Prefixo": "67",
+    "Estado": "Mato Grosso do Sul",
+    "Cidade_Região": "Abrangência em todo o Estado"
+  
+  },
+  {"id":43,
+    "Prefixo": "68",
+    "Estado": "Acre",
+    "Cidade_Região": "Abrangência em todo o Estado"
+  
+  },
+  {"id":44,
+    "Prefixo": "69",
+    "Estado": "Rondônia",
+    "Cidade_Região": "Abrangência em todo o Estado"
+   
+  },
+  {"id":45,
+    "Prefixo": "71",
+    "Estado": "Bahia",
+    "Cidade_Região": "Salvador e Região Metropolitana"
+   
+  },
+  {"id":46, "Prefixo": "73", "Estado": "Bahia", "Cidade_Região": "Itabuna/Ilhéus","Valor":233 },
+  {"id":47, "Prefixo": "74", "Estado": "Bahia", "Cidade_Região": "Juazeiro", "Valor":239},
+  {"id":48,
+    "Prefixo": "75",
+    "Estado": "Bahia",
+    "Cidade_Região": "Feira de Santana/Alagoinhas"
+ 
+  },
+  {"id":49,
+    "Prefixo": "77",
+    "Estado": "Bahia",
+    "Cidade_Região": "Vitória da Conquista/Barreiras"
+   
+  },
+  {"id":50,
+    "Prefixo": "79",
+    "Estado": "Sergipe",
+    "Cidade_Região": "Abrangência em todo o Estado"
+  
+  },
+  {"id":51,
+    "Prefixo": "81",
+    "Estado": "Pernambuco",
+    "Cidade_Região": "Recife e Região Metropolitana/Caruaru"
+  
+  },
+  {"id":52,
+    "Prefixo": "82",
+    "Estado": "Alagoas",
+    "Cidade_Região": "Abrangência em todo o Estado"
+    
+  },
+  {"id":53,
+    "Prefixo": "83",
+    "Estado": "Paraíba",
+    "Cidade_Região": "Abrangência em todo o Estado"
+   
+  },
+  {"id":54,
+    "Prefixo": "84",
+    "Estado": "Rio Grande do Norte",
+    "Cidade_Região": "Abrangência em todo o Estado"
+  
+  },
+  {"id":55,
+    "Prefixo": "85",
+    "Estado": "Ceará",
+    "Cidade_Região": "Fortaleza e Região Metropolitana"
+    
+  },
+  {"id":56,
+    "Prefixo": "86",
+    "Estado": "Piauí",
+    "Cidade_Região": "Teresina e Região Metropolitana/Parnaíba"
+
+  },
+  {"id":57,
+    "Prefixo": "87",
+    "Estado": "Pernambuco",
+    "Cidade_Região": "Petrolina/Garanhuns/Serra Talhada/Salgueiro"
+   
+  },
+  {"id":58,
+    "Prefixo": "88",
+    "Estado": "Ceará",
+    "Cidade_Região": "Juazeiro do Norte/Sobral"
+    
+  },
+  {"id":59, "Prefixo": "89", "Estado": "Piauí", "Cidade_Região": "Picos/Floriano"},
+  {"id":60,
+    "Prefixo": "91",
+    "Estado": "Pará",
+    "Cidade_Região": "Belém/Região Metropolitana"
+
+  },
+  {"id":61,
+    "Prefixo": "92",
+    "Estado": "Amazonas",
+    "Cidade_Região": "Manaus/Região Metropolitana/Parintins"
+
+  },
+  {"id":62, "Prefixo": "93", "Estado": "Pará", "Cidade_Região": "Santarém/Altamira"},
+  {"id":63, "Prefixo": "94", "Estado": "Pará", "Cidade_Região": "Marabá"},
+  {"id":64,
+    "Prefixo": "95",
+    "Estado": "Roraima",
+    "Cidade_Região": "Abrangência em todo o Estado"
+
+  },
+  {"id":65,
+    "Prefixo": "96",
+    "Estado": "Amapá",
+    "Cidade_Região": "Abrangência em todo o Estado"
+
+  },
+  {"id":66,
+    "Prefixo": "97",
+    "Estado": "Amazonas",
+    "Cidade_Região": "Abrangência no interior do Estado"
+
+  },
+  {"id":67,
+    "Prefixo": "98",
+    "Estado": "Maranhão",
+    "Cidade_Região": "São Luís e Região Metropolitana"
+  
+  },
+  {"id":68,
+    "Prefixo": "99",
+    "Estado": "Maranhão",
+    "Cidade_Região": "Imperatriz/Caxias/Codó"
+   
+  }
+]

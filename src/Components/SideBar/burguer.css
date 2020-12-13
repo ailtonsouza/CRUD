@@ -1,0 +1,25 @@
+.StyledBurguer {
+  width: 2rem;
+  height: 2rem;
+  /* position: relative; */
+
+  margin-left: 30px;
+  margin-right: 30px;
+  /* margin-top: 20px; */
+  /* left: 10%; */
+  /* top: -20px; */
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column nowrap;
+  cursor: pointer;
+}
+
+.StyledBurguer div {
+  width: 2rem;
+  height: 0.25rem;
+  border-radius: 10px;
+  border-right: 2px solid black;
+  transform-origin: 1px;
+  transition: all 0.3s linear;
+  background-color: blue;
+}
