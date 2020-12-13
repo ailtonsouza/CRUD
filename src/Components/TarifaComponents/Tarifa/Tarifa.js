@@ -1,8 +1,8 @@
 import React, { memo } from "react";
 
-import "./DDD.css";
+import "./Tarifa.css";
 
-const DDD = (props) => {
+const Tarifa = (props) => {
   return (
     <>
       <div
@@ -17,9 +17,9 @@ const DDD = (props) => {
           type="checkbox"
           defaultValue={true}
           checked={props.isSelected}
-          onClick={() => props.handleSelectedDDD(props.item.Prefixo)}
+          onClick={() => props.handleSelectedDDD(props.item.id)}
         />
-        <li key={props.item}>
+        <li key={props.item.id}>
           <ul>
             <b>Prefixo:</b> {props.item.Prefixo}
           </ul>
@@ -35,4 +35,4 @@ const DDD = (props) => {
   );
 };
 
-export default memo(DDD);
+export default memo(Tarifa);

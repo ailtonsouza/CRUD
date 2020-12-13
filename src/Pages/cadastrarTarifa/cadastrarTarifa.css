@@ -1,3 +1,14 @@
+/* .Body2 {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 105px;
+  height: 90%;
+   width: 100%; 
+
+  background-color: rgb(255, 255, 255);
+} */
+
 .SideBarOpen {
   position: fixed;
   display: flex;
@@ -77,4 +88,5 @@
 .breadCrumb {
   display: flex;
   align-items: center;
+  font-size: large;
 }

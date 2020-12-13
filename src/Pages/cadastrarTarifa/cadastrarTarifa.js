@@ -1,20 +1,20 @@
 import React, { useEffect, useState } from "react";
-import "./cadastrarDDD.css";
+import "./cadastrarTarifa.css";
 import Burguer from "../../Components/SideBar/burguer";
 import MenuBar from "../../Components/MenuBar/MenuBar";
-import DDD from "../../Components/DDDComponents/DDD/DDD";
+import Tarifa from "../../Components/TarifaComponents/Tarifa/Tarifa";
 import Pagination from "../../Components/Pagination/Pagination";
-import ModalAddDDD from "../../Components/DDDComponents/ModalAddDDD/ModalAddDDD";
-import ModalEditDDD from "../../Components/DDDComponents/ModalEditDDD/ModalEditDDD";
+import ModalAddTarifa from "../../Components/TarifaComponents/ModalAddTarifa/ModalAddTarifa";
+import ModalEditTarifa from "../../Components/TarifaComponents/ModalEditTarifa/ModalEditTarifa";
 import Input from "../../Components/SideBar/Input/input";
 import Selector from "../../Components/SideBar/Selector/selector";
 import RightNav from "../../Components/SideBar/RightNav";
-import json from "./ddds.json";
+import tarifas from "./tarifas.json";
 import customFilter from "../../hooks/customFilter";
 import customSelectors from "../../hooks/customSelectors";
 
-const CadastrarDDD = () => {
-  const [data, setData] = useState(json);
+const CadastrarTarifa = () => {
+  const [data, setData] = useState(tarifas);
 
   const [open, setOpen] = useState(0);
   const [slicedData, setSlicedData] = useState([...data].slice(0, 10));
@@ -83,7 +83,7 @@ const CadastrarDDD = () => {
       <div className={open ? "SideBarOpen" : "SideBarClosed"}>
         <div className="breadCrumb">
           <Burguer setOpen={() => setOpen(!open)} />
-          <h1>Cadastrar &gt; DDD</h1>
+          <h1>Cadastrar &gt; Tarifas</h1>
         </div>
         <MenuBar
           data={data}
@@ -98,7 +98,7 @@ const CadastrarDDD = () => {
         <div className="screenItems">
           <div className="items">
             {slicedData.map((item) => (
-              <DDD
+              <Tarifa
                 item={item}
                 handleSelectedDDD={handleSelectedDDD}
                 isSelected={selected.includes(item.id)}
@@ -110,12 +110,12 @@ const CadastrarDDD = () => {
         <Pagination data={filterData} setSlicedData={setSlicedData} />
       </div>
 
-      <ModalAddDDD
+      <ModalAddTarifa
         isOpen={modalAdd}
         handleOpen={() => setModalAdd(!modalAdd)}
         setData={setData}
       />
-      <ModalEditDDD
+      <ModalEditTarifa
         isOpen={modalEdit}
         handleOpen={closeModalEdit}
         data={edited}
@@ -125,4 +125,4 @@ const CadastrarDDD = () => {
   );
 };
 
-export default CadastrarDDD;
+export default CadastrarTarifa;

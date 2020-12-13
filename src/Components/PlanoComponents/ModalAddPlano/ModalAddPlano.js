@@ -1,18 +1,18 @@
 import React, { useState } from "react";
-import "./ModalAdd.css";
+import "./ModalAddPlano.css";
 
 const ModalAdd = (props) => {
-  const [prefixo, setPrefixo] = useState();
-  const [estado, setEstado] = useState();
-  const [cidadeRegiao, setCidadeRegiao] = useState();
+  const [nome, setNome] = useState();
+  const [franquia, setFranquia] = useState();
+  const [percentual_Minuto_Extra, setPercentual_Minuto_Extra] = useState();
 
   function submit() {
     props.setData((x) => [
       ...x,
       {
-        Prefixo: prefixo,
-        Estado: estado,
-        Cidade_Região: cidadeRegiao,
+        Nome: nome,
+        Franquia: franquia,
+        Percentual_Minuto_Extra: percentual_Minuto_Extra,
       },
     ]);
     props.handleOpen();
@@ -23,19 +23,19 @@ const ModalAdd = (props) => {
       <div className="Modal" onClick={() => props.handleOpen()}></div>
       <div className="Window">
         <div className="title">
-          <h2>Cadastro de DDD</h2>
+          <h2>Cadastro de Planos</h2>
           <button className="exit" onClick={() => props.handleOpen()}>
             X
           </button>
         </div>
 
         <div className="form">
-          <span>Prefixo</span>
-          <input onChange={(e) => setPrefixo(e.target.value)} />
-          <span>Estado</span>
-          <input onChange={(e) => setEstado(e.target.value)} />
-          <span>Cidade_Região</span>
-          <input onChange={(e) => setCidadeRegiao(e.target.value)} />
+          <span>Nome</span>
+          <input onChange={(e) => setNome(e.target.value)} />
+          <span>Franquia</span>
+          <input type="number" onChange={(e) => setFranquia(e.target.value)} />
+          <span>Percentual_Minuto_Extra</span>
+          <input onChange={(e) => setPercentual_Minuto_Extra(e.target.value)} />
         </div>
         <button onClick={() => submit()} className="submit">
           Submit

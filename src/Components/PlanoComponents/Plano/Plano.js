@@ -1,6 +1,6 @@
 import React, { memo } from "react";
 
-import "./Plano.css";
+// import "./Plano.css";
 
 const Plano = (props) => {
   return (

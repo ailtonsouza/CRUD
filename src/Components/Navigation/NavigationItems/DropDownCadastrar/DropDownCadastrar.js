@@ -53,7 +53,8 @@ function DropDown(props) {
           onEnter={calcHeight}
         >
           <div className="menu">
-            <DropdownItem goToMenu="settings">Settings</DropdownItem>
+            {/* <DropdownItem goToMenu="settings">Settings</DropdownItem> */}
+            <DropdownItem adress="/Tarifas">Tarifas</DropdownItem>
             <DropdownItem adress="/Planos">Planos</DropdownItem>
             <DropdownItem adress="/DDD">DDD</DropdownItem>
           </div>

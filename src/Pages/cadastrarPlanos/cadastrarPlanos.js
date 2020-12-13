@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import "./cadastrarPlanos.css";
+// import "./cadastrarPlanos.css";
 import Burguer from "../../Components/SideBar/burguer";
-import MenuBar from "../../Components/ManuBar/MenuBar";
-import Plano from "../../Components/Plano/Plano";
+import MenuBar from "../../Components/MenuBar/MenuBar";
+import Plano from "../../Components/PlanoComponents/Plano/Plano";
 import Pagination from "../../Components/Pagination/Pagination";
-import ModalAdd from "../../Components/ModalAdd/ModalAdd";
-import ModalEdit from "../../Components/ModalEdit/ModalEdit";
+import ModalAddPlano from "../../Components/PlanoComponents/ModalAddPlano/ModalAddPlano";
+import ModalEditPLano from "../../Components/PlanoComponents/ModalEditPlano/ModalEditPlano";
 import Input from "../../Components/SideBar/Input/input";
 import Selector from "../../Components/SideBar/Selector/selector";
 import RightNav from "../../Components/SideBar/RightNav";
@@ -13,7 +13,7 @@ import json from "./planos.json";
 import customFilter from "../../hooks/customFilter";
 import customSelectors from "../../hooks/customSelectors";
 
-const Cadastrar = () => {
+const CadastrarPlano = () => {
   const [data, setData] = useState(json);
 
   const [open, setOpen] = useState(0);
@@ -69,7 +69,7 @@ const Cadastrar = () => {
   return (
     <>
       <RightNav open={open} filter={() => filter()}>
-        <Input type={"number"} label="Nome" setFilters={setFilters}>
+        <Input type={"string"} label="Nome" setFilters={setFilters}>
           <Selector selectors={stringSimbols} />
         </Input>
         <Input type={"string"} label="Franquia" setFilters={setFilters}>
@@ -115,12 +115,12 @@ const Cadastrar = () => {
         <Pagination data={filterData} setSlicedData={setSlicedData} />
       </div>
 
-      <ModalAdd
+      <ModalAddPlano
         isOpen={modalAdd}
         handleOpen={() => setModalAdd(!modalAdd)}
         setData={setData}
       />
-      <ModalEdit
+      <ModalEditPLano
         isOpen={modalEdit}
         handleOpen={closeModalEdit}
         data={edited}
@@ -130,4 +130,4 @@ const Cadastrar = () => {
   );
 };
 
-export default Cadastrar;
+export default CadastrarPlano;

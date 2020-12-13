@@ -19,6 +19,7 @@ const MenuBar = (props) => {
     var check = props.sliced.every((el) => {
       return obj[el.id] !== undefined;
     });
+
     setAllSelected(check);
   }, [props.selected, props.sliced]);
 

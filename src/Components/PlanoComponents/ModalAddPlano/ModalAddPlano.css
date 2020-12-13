@@ -1,0 +1,78 @@
+/* .Modal {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  background-color: rgba(250, 249, 247, 0.8);
+  cursor: pointer;
+}
+
+.Window {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 60%;
+  position: fixed;
+  left: 37.5%;
+  top: 15%;
+  background-color: rgb(234, 233, 238);
+  z-index: 101;
+  border: 2px solid black;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.form {
+  width: 85%;
+  height: 65%;
+  border: 1px solid rgb(170, 170, 175);
+  padding: 10px;
+  margin-top: 1%;
+}
+
+.submit {
+  width: 30%;
+  height: 7.5%;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.form span {
+  display: block;
+  margin-top: 15px;
+}
+
+.form input {
+  display: block;
+  width: 98%;
+  height: 10%;
+  border: 1px solid rgb(252, 241, 243);
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.form input:focus {
+  border-bottom: 2px solid rgb(169, 231, 247);
+  outline: none;
+  font-size: larger;
+}
+
+.exit {
+  border: none;
+  cursor: pointer;
+  font-size: x-large;
+  background-color: transparent;
+  margin-left: 20%;
+  outline: none;
+}
+
+.title {
+  width: 100%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+} */
